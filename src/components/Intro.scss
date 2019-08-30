@@ -1,0 +1,32 @@
+.intro.jumbotron {
+  background: url(../assets/images/architecture-building-dubai-70441_bg/architecture-building-dubai-70441_bg@2x.png) no-repeat;
+  opacity: 1;
+  display: flex;
+  border-radius: 0;
+  padding: 1rem 5rem;
+
+  .intro-text-container {
+    align-self: center;
+  }
+
+  .btn {
+    color: #FFFFFF;
+    border: 1px solid #C68F56;
+    background-color: #C68F56;
+    text-transform: uppercase;
+    margin: 2rem 0;
+  }
+
+  h3 {
+    color: #F1D2BF;
+  }
+
+  p {
+    color: #FFFFFF;
+  }
+
+  image {
+    width: 585px;
+    height: 437px;
+  }
+}

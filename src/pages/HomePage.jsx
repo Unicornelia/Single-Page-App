@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import NavComponent from '../components/NavComponent'
+import Intro from '../components/Intro'
 import './HomePage.scss'
 
 class HomePage extends Component {
@@ -7,6 +8,7 @@ class HomePage extends Component {
     return (
       <div>
         <NavComponent/>
+        <Intro/>
       </div>
     );
   }
