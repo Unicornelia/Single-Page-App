@@ -11,7 +11,7 @@ class NavComponent extends Component {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Image src={logo}
-                   alt="phones"/>
+                   alt="logo on home page"/>
             <Nav.Link href="#about_the_app">About the app</Nav.Link>
             <Nav.Link href="#for_customer">For customers</Nav.Link>
             <Nav.Link href="#available_for">Available for</Nav.Link>
