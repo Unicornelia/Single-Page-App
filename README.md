@@ -23,3 +23,7 @@ Launches the test runner in the interactive watch mode.
 - Sass
 - Bootstrap
 - Jest + Enzyme
+
+## Deployed version using Netlify
+- Info: https://www.netlify.com/
+- Website: https://elated-brown-fde74a.netlify.com/
