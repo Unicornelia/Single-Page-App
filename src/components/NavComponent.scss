@@ -1,0 +1,28 @@
+nav.navbar-custom {
+  color: #ffffff;
+  background-color: #323d47;
+  opacity: 1;
+  padding: 0.5rem 15rem;
+
+  a {
+    text-transform: uppercase;
+    align-self: center;
+  }
+
+  button {
+    text-transform: uppercase;
+  }
+
+  .login-button {
+    background-color: #C68F56;
+  }
+
+  .sign-up-button {
+    background-color: transparent;
+  }
+
+  .btn {
+    color: #FFFFFF;
+    border: 1px solid #C68F56;
+  }
+}
