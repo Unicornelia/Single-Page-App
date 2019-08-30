@@ -1,11 +1,13 @@
-#Drukka Single Page Application
+# Drukka Single Page Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Running the project locally
 
-In the project directory, you can run:
+Clone this repo on your machine
+```cd drukka```
 
+In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br>
