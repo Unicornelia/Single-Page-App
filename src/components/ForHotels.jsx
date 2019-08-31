@@ -9,7 +9,7 @@ import "./ForHotels.scss";
 class ForHotels extends Component {
   render() {
     return (
-      <Jumbotron className="for-customers">
+      <Jumbotron className="for-hotels">
         <div className="text-div">
           <h3>For Hotels</h3>
           <p>
@@ -33,7 +33,7 @@ class ForHotels extends Component {
             </Col>
           </Row>
         </div>
-        <Image src={hotelCorridor} alt="a bar in a hotel lobby" />
+        <Image src={hotelCorridor} alt="a corridor in a fancy hotel" />
       </Jumbotron>
     );
   }
