@@ -3,14 +3,23 @@
   border: 1px solid #707070;
   border-radius: 0;
   background-color: #1C2228;
-  opacity: 1;
+  opacity: 5;
   color: #FFFFFF;
   margin-bottom: 0;
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
 
-  align-items: flex-end;
+  .top-row {
+    margin-bottom: 2rem;
+  }
 
+  #first-column {
+    padding-right: 2rem;
+  }
+
+  #last-column {
+    padding-left: 2rem;
+  }
 
   h3 {
     text-align: center;
