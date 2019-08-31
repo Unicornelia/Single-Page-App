@@ -1,6 +1,6 @@
-html {
-  font-family: Playfair Display, Regular, monospace;
+html, body {
   font-size: 16px;
+  font-family: Montserrat, sans-serif;
 
   h1 {
     font-size: 2rem;
@@ -12,9 +12,19 @@ html {
 
   h3 {
     font-size: 1.7rem;
+    text-transform: uppercase;
+    padding-bottom: 3rem;
+    text-align: center;
   }
 
   p {
     font-size: 1rem;
+  }
+
+  .jumbotron {
+    color: #FFFFFF;
+    border-radius: 0;
+    margin-bottom: 0;
+    opacity: 1;
   }
 }
