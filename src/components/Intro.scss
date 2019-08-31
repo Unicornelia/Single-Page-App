@@ -1,34 +1,29 @@
 .intro.jumbotron {
-  background: url(../assets/images/architecture-building-dubai-70441_bg/architecture-building-dubai-70441_bg@2x.png) no-repeat;
-  opacity: 1;
+  background: url(../assets/images/architecture-building-dubai-70441_bg/architecture-building-dubai-70441_bg@2x.png)
+    no-repeat;
+  //TODO add @media for various screen sizes
   display: flex;
-  border-radius: 0;
   padding: 1rem 5rem;
-  margin-bottom: 0;
-  font-family: Montserrat, sans-serif;
-
-  .intro-text-container {
-    align-self: center;
-  }
 
   .btn {
-    color: #FFFFFF;
-    border: 1px solid #C68F56;
-    background-color: #C68F56;
+    border: 1px solid #c68f56;
+    background-color: #c68f56;
     text-transform: uppercase;
     margin: 2rem 0;
   }
 
   h3 {
-    color: #F1D2BF;
+    color: #f1d2bf;
   }
 
-  p {
-    color: #FFFFFF;
+  .col {
+    align-self: center;
+    color: #ffffff;
   }
 
   img {
-    width: 585px;
-    height: 437px;
+    //TODO make it more responsive
+    width: 100%;
+    height: 100%;
   }
 }
