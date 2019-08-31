@@ -1,0 +1,30 @@
+.impressum.jumbotron {
+  display: flex;
+  border: 1px solid #707070;
+  background-color: #1C2228;
+  opacity: 1;
+  color: #FFFFFF;
+  border-radius: 0;
+  padding: 1rem 5rem;
+  margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
+
+  .impressum-text-container {
+    padding-left: 10rem;
+    align-self: center;
+    text-align: center;
+  }
+
+  .btn {
+    border: 1px solid #C68F56;
+    background-color: #C68F56;
+    text-transform: uppercase;
+    margin: 2rem 0;
+  }
+
+  img {
+    padding-right: 5rem;
+    width: 585px;
+    height: 437px;
+  }
+}

@@ -6,6 +6,7 @@ import AboutTheApp from "../components/AboutTheApp";
 import ForCustomers from "../components/ForCustomers";
 import AvailableFor from "../components/AvailableFor";
 import ForHotels from '../components/ForHotels'
+import Impressum from '../components/Impressum'
 
 class HomePage extends Component {
   render() {
@@ -17,6 +18,7 @@ class HomePage extends Component {
         <ForCustomers />
         <AvailableFor />
         <ForHotels/>
+        <Impressum/>
       </div>
     );
   }
