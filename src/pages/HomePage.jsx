@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NavComponent from '../components/NavComponent'
 import Intro from '../components/Intro'
 import AboutTheApp from '../components/AboutTheApp'
+import ForCustomers from '../components/ForCustomers'
 import './HomePage.scss'
 
 class HomePage extends Component {
@@ -11,6 +12,7 @@ class HomePage extends Component {
         <NavComponent/>
         <Intro/>
         <AboutTheApp/>
+        <ForCustomers/>
       </div>
     );
   }
