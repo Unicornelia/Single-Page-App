@@ -1,9 +1,15 @@
-nav.navbar-custom {
+nav {
   color: #ffffff;
   background-color: #323d47;
   opacity: 1;
-  padding: 1rem 5rem;
-  font-family: Playfair Display, Regular, sans-serif;
+
+  .navbar-nav {
+    padding: 1rem 5rem;
+
+    img {
+      padding-right: 2rem;
+    }
+  }
 
   a {
     text-transform: uppercase;
@@ -15,7 +21,7 @@ nav.navbar-custom {
   }
 
   .login-button {
-    background-color: #C68F56;
+    background-color: #c68f56;
   }
 
   .sign-up-button {
@@ -23,8 +29,9 @@ nav.navbar-custom {
   }
 
   .btn {
-    color: #FFFFFF;
-    border: 1px solid #C68F56;
-    font-family: Montserrat, sans-serif;
+    width: 130px;
+    height: 35px;
+    border: 1px solid #c68f56;
+    margin: 0 1rem;
   }
 }
