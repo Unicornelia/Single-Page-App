@@ -7,6 +7,7 @@ import ForCustomers from "../components/ForCustomers";
 import AvailableFor from "../components/AvailableFor";
 import ForHotels from '../components/ForHotels'
 import Impressum from '../components/Impressum'
+import Contact from '../components/Contact'
 
 class HomePage extends Component {
   render() {
@@ -19,6 +20,7 @@ class HomePage extends Component {
         <AvailableFor />
         <ForHotels/>
         <Impressum/>
+        <Contact/>
       </div>
     );
   }
