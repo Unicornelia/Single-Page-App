@@ -12,14 +12,14 @@ class AvailableFor extends Component {
       <Container id="available_for" className="available" fluid>
           <h3>Available for</h3>
           <Row>
-            <Col>
+            <Col xs={12} s={12} m={12} lg={4}>
                 <Image src={flower1} alt="..." />
                 <Image src={phone} alt="..." />
             </Col>
-            <Col>
+            <Col xs={12} s={12} m={12} lg={4}>
                 <Image src={desktop} alt="..." />
             </Col>
-            <Col>
+            <Col xs={12} s={12} m={12} lg={4}>
                 <Image src={phone} alt="..." />
                 <Image src={flower2} alt="..." />
             </Col>

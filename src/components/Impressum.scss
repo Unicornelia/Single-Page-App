@@ -2,15 +2,23 @@
   display: flex;
   background-color: #1c2228;
   padding: 3rem 5rem 0;
+  text-align: center;
 
   .row {
     margin-bottom: 0;
   }
 
+  .impressum-image {
+    text-align: left;
+  }
+
   .impressum-text-container {
-    padding-left: 10rem;
     align-self: center;
     text-align: center;
+
+    p {
+      text-align: left;
+    }
   }
 
   .btn {
@@ -21,7 +29,6 @@
   }
 
   img {
-    padding-right: 5rem;
     max-width: 402px;
     max-height: 440px;
 
