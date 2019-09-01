@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import { Button, Col, Image, Jumbotron, Row } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from 'react-bootstrap'
 import phones from "../assets/images/Group_1598/Group_1598.png";
 import "./Intro.scss";
 
 class Intro extends Component {
   render() {
     return (
-      <Jumbotron className="intro" fluid>
+        <Container className="intro" fluid>
         <Row>
-          <Col>
+          <Col xs={12} s={12} m={12} lg={6}>
             <h1>CHECK YOURSELF & HELP YOURSELF</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -18,11 +18,11 @@ class Intro extends Component {
             </p>
             <Button>Get started</Button>
           </Col>
-          <Col>
-            <Image src={phones} alt="phones" />
+          <Col xs={12} s={12} m={12} lg={6}>
+            <Image src={phones} alt="phones" responsive/>
           </Col>
         </Row>
-      </Jumbotron>
+        </Container>
     );
   }
 }

@@ -1,9 +1,10 @@
-.intro.jumbotron {
+.container-fluid.intro {
   background: url(../assets/images/architecture-building-dubai-70441_bg/architecture-building-dubai-70441_bg@2x.png)
     no-repeat;
   //TODO add @media for various screen sizes
   display: flex;
   padding: 1rem 5rem;
+  color: #ffffff;
 
   .btn {
     border: 1px solid #c68f56;
@@ -22,8 +23,27 @@
   }
 
   img {
-    //TODO make it more responsive
-    width: 100%;
-    height: 100%;
+    max-width: 585px;
+    max-height: 437px;
+
+    @media screen and (max-width: 1024px) {
+      width: 90%;
+      height: 90%;
+    }
+
+    @media screen and (max-width: 960px) {
+      width: 90%;
+      height: 90%;
+    }
+
+    @media screen and (max-width: 640px) {
+      width: 85%;
+      height: 85%;
+    }
+
+    @media screen and (max-width: 320px) {
+      width: 80%;
+      height: 80%;
+    }
   }
 }
