@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Running the project locally
 
-Clone this repo on your machine
+Clone this repo on your machine, then:
 ```cd drukka```
 
 In the project directory, you can run:
@@ -13,17 +13,15 @@ In the project directory, you can run:
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Testing
-### `npm test`
-
-Launches the test runner in the interactive watch mode.
-
 ##Technologies used
 - React.js
 - Sass
 - Bootstrap
-- Jest + Enzyme
 
 ## Deployed version using Netlify
 - Info: https://www.netlify.com/
 - Website: https://elated-brown-fde74a.netlify.com/
+
+## Possible additional steps:
+- adding tests using: Jest + Enzyme
+- making sure app is fully responsive, including various devices and screen sizes
