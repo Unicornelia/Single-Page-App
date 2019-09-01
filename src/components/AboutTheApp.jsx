@@ -8,7 +8,7 @@ import "./AboutTheApp.scss";
 class Intro extends Component {
   render() {
     return (
-      <Container className="about" fluid>
+      <Container id="about_the_app" className="about" fluid>
         <h3>About the app</h3>
         <Row>
           <Col xs={12} s={12} m={12} lg={4}>

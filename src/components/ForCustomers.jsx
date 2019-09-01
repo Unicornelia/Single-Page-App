@@ -9,7 +9,7 @@ import "./ForCustomers.scss";
 class ForCustomers extends Component {
   render() {
     return (
-      <Jumbotron className="for-customers">
+      <Jumbotron id="for_customers" className="for-customers">
         <Image src={hotelLobby} alt="a bar in a hotel lobby" />
         <div className="text-div">
           <h3>FOR CUSTOMERS</h3>

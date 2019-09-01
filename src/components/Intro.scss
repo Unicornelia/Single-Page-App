@@ -1,20 +1,19 @@
 .container-fluid.intro {
   background: url(../assets/images/architecture-building-dubai-70441_bg/architecture-building-dubai-70441_bg@2x.png)
     no-repeat;
-  //TODO add @media for various screen sizes
   display: flex;
   padding: 1rem 5rem;
   color: #ffffff;
+
+  h1 {
+    padding-top: 5rem;
+  }
 
   .btn {
     border: 1px solid #c68f56;
     background-color: #c68f56;
     text-transform: uppercase;
     margin: 2rem 0;
-  }
-
-  h3 {
-    color: #f1d2bf;
   }
 
   .col {

@@ -13,7 +13,7 @@ class NavComponent extends Component {
             <Image src={logo}
                    alt="logo on home page"/>
             <Nav.Link href="#about_the_app">About the app</Nav.Link>
-            <Nav.Link href="#for_customer">For customers</Nav.Link>
+            <Nav.Link href="#for_customers">For customers</Nav.Link>
             <Nav.Link href="#available_for">Available for</Nav.Link>
             <Nav.Link href="#for_hotels">For hotels</Nav.Link>
           </Nav>

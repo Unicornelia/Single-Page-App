@@ -9,7 +9,7 @@ import "./ForHotels.scss";
 class ForHotels extends Component {
   render() {
     return (
-      <Jumbotron className="for-hotels">
+      <Jumbotron id="for_hotels" className="for-hotels">
         <div className="text-div">
           <h3>For Hotels</h3>
           <p>

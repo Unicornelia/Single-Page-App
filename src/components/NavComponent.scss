@@ -1,14 +1,15 @@
 nav {
-  color: #ffffff;
   background-color: #323d47;
   opacity: 1;
   text-align: center;
 
   .navbar-nav {
+    color: #ffffff;
     padding: 1rem 5rem;
   }
 
-  a {
+  a.nav-link {
+    margin-left: 1rem;
     text-transform: uppercase;
     align-self: center;
   }

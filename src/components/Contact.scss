@@ -1,10 +1,18 @@
-.contact.jumbotron {
-  display: flex;
+.contact.container-fluid {
   background-color: #323d47;
   padding: 1rem 5rem;
+  color: #ffffff;
+  text-align: center;
 
-  img {
-    padding-left: 30rem;
-    text-align: center;
+  .row {
+    margin-bottom: 2rem;;
+  }
+
+  .col:first-child {
+    text-align: right;
+  }
+
+  .col:nth-child(2) {
+    text-align: left;
   }
 }

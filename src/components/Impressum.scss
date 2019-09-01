@@ -1,7 +1,11 @@
-.impressum.jumbotron {
+.impressum.container-fluid {
   display: flex;
-  background-color: #1C2228;
-  padding: 1rem 5rem;
+  background-color: #1c2228;
+  padding: 3rem 5rem 0;
+
+  .row {
+    margin-bottom: 0;
+  }
 
   .impressum-text-container {
     padding-left: 10rem;
@@ -10,15 +14,35 @@
   }
 
   .btn {
-    border: 1px solid #C68F56;
-    background-color: #C68F56;
+    border: 1px solid #c68f56;
+    background-color: #c68f56;
     text-transform: uppercase;
     margin: 2rem 0;
   }
 
   img {
     padding-right: 5rem;
-    width: 585px;
-    height: 437px;
+    max-width: 402px;
+    max-height: 440px;
+
+    @media screen and (max-width: 1024px) {
+      width: 90%;
+      height: 90%;
+    }
+
+    @media screen and (max-width: 960px) {
+      width: 90%;
+      height: 90%;
+    }
+
+    @media screen and (max-width: 640px) {
+      width: 85%;
+      height: 85%;
+    }
+
+    @media screen and (max-width: 320px) {
+      width: 80%;
+      height: 80%;
+    }
   }
 }

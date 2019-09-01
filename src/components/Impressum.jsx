@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
-import { Button, Image, Jumbotron } from 'react-bootstrap'
+import { Button, Col, Container, Image, Row } from 'react-bootstrap'
 import hotel from '../assets/images/hotel_illustration.svg'
 import './Impressum.scss'
 
 class Impressum extends Component {
   render() {
     return (
-      <Jumbotron className='impressum'>
-        <div className="impressum-text-container">
+      <Container className='impressum' fluid>
+        <Row>
+        <Col className="impressum-text-container">
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -15,14 +16,15 @@ class Impressum extends Component {
             nisi ut aliquip ex ea commodo consequat.
           </p>
           <Button>Contact Us</Button>
-        </div>
-        <div>
+        </Col>
+        <Col>
           <Image
             src={hotel}
             alt="hotel"
           />
-        </div>
-      </Jumbotron>
+        </Col>
+        </Row>
+      </Container>
     )
   }
 }
